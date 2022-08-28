@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 #configure the streamlit page
 #st.set_page_config(layout='wide')
 
-st.title('SF Trees')
+st.title('SF Trees On The Web')
+st.write("Data from SF DPW")
 trees_df = pd.read_csv('trees.csv')
 #add filter on sidebar
 owners = st.sidebar.multiselect('Tree owner filter', trees_df['caretaker'].unique())
