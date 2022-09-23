@@ -4,7 +4,7 @@ import streamlit.components.v1 as html
 from  PIL import Image
 import numpy as np
 import pandas as pd
-from st_aggrid import AgGrid
+#from st_aggrid import AgGrid
 from raceplotly.plots import barplot
 from collections import deque
 #import bar_chart_race as bcr
