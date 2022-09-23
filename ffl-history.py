@@ -50,7 +50,7 @@ if choose == "P2 Ratings":
 
     st.sidebar.subheader('Select week for P2')
     #add filter on sidebar, select the largest number
-    week_filter = st.sidebar.selectbox('FFL Week', p2_df['Week'].unique(),index = p2_df['Week'].max()-1)
+    week_filter = st.sidebar.selectbox('FFL Week', p2_df['Week'].unique(),index = p2_df['Week'].nunique() - 1)
     if week_filter:
         p2_df = p2_df[p2_df['Week'] == week_filter]
         p2_df = p2_df[["Franchise","Rank","Previous_Rank","Win %","Points","H2H","P2"]]
