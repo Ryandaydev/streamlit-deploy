@@ -37,7 +37,10 @@ with st.sidebar:
 
 if choose == "P2 Ratings":
     st.title('FFL Performance Power Rating (P2)')
+
     p2_df = pd.read_csv('data/p2_with_rank.csv')
+
+
 
     #special df for week1
     p2_week1_df = p2_df[p2_df.Week == 1]
@@ -55,6 +58,9 @@ if choose == "P2 Ratings":
         p2_df = p2_df[p2_df['Week'] == week_filter]
         p2_df = p2_df[["Franchise","Rank","Previous_Rank","Win %","Points","H2H","P2"]]
         st.subheader('Week: ' + str(week_filter))
+
+
+
 
     def p2_formatting(row):    
 
@@ -87,6 +93,15 @@ if choose == "P2 Ratings":
         st.table(p2_week1_df.style.hide_index())
     else:
         st.table(p2_df.style.apply(p2_formatting, subset=['Rank', 'Previous_Rank','Franchise'], axis=1))
+    
+    heading_up_moving_down = """
+    <span style="background-color: lightgreen">Movin' Up</span>
+    <br />
+    <span style="background-color: lightcoral">Heading Down</span>
+        
+    """
+    st.markdown(heading_up_moving_down, unsafe_allow_html=True)
+
 
 
 
