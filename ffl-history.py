@@ -24,8 +24,8 @@ st.markdown(reduce_header_height_style, unsafe_allow_html=True)
 #create the sidebar
 with st.sidebar:
     #uses bootstrap icons: https://icons.getbootstrap.com/
-    choose = option_menu("Menu", ["P2 Ratings", "FFL History"],
-                         icons=['clipboard-data', 'arrow-right-square'],
+    choose = option_menu("Menu", ["FFL History in Motion", "P2 Ratings"],
+                         icons=['arrow-right-square', 'clipboard-data'],
                          menu_icon="list", default_index=0,
                          styles={
         "container": {"padding": "5!important", "background-color": "#fafafa"},
@@ -91,7 +91,7 @@ if choose == "P2 Ratings":
 
 
 
-elif choose == "FFL History":
+elif choose == "FFL History in Motion":
 
     ffl_df=pd.read_csv('data/final_clean_data_manual.csv')  
     st.subheader('FFL History in Motion')
