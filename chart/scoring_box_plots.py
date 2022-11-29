@@ -13,7 +13,7 @@ class ScoringBoxPlots():
 
         st.title ('\U0001f3c8 Regular Season Scoring Chart \U0001f4c8')
         st.subheader('Regular Season Games: 2017-2021')
-        st.write('The chart below shows which owners scoreed consistently highest over the last 5 regular seasons, along with the highs and lows. (See below for more details on reading the chart.)')
+        st.write('The chart below shows which owners scored consistently highest over the last 5 regular seasons, along with the highs and lows. (See below for more details on reading the chart.)')
 
 
 
