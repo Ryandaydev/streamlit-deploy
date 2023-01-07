@@ -23,7 +23,7 @@ class TitlesMap():
         #championship_df = pd.DataFrame(data, columns = ['year','owner','city','state'])
         trophy_count_df = championship_df.groupby('state', as_index = False)['year'].count()
         trophy_count_df.columns = ['state_code','trophy_count']
-        trophy_count_df.head()
+        #trophy_count_df.head()
 
        #select box for wins/losses/ties
         st.sidebar.subheader('Filter by US state')
@@ -60,6 +60,7 @@ class TitlesMap():
         st.plotly_chart(fig2)
 
         championship_df.set_index('year', inplace=True)
+        championship_df = championship_df.sort_values(by="year",ascending=False)
         st.table(championship_df)
     
 
