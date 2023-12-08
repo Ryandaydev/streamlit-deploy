@@ -54,7 +54,7 @@ def run():
             """\n\n<---- Choose a page in the left sidebar."""
             # """\n\nUse the ">" symbol in the upper left corner to expand the"""
             # """ sidebar if it is not visible."""
-            """\n\nThanks to Robert Astel for the example site: https://github.com/robastel/fantasy_football_app"""
+            """\n\nMany thanks to Robert Astel for the example site: https://github.com/robastel/fantasy_football_app"""
         )
 
     else:
