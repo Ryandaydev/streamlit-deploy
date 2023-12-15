@@ -48,7 +48,7 @@ def run():
     chart_name = st.sidebar.radio("Select a page:", CHARTS, 0)
     if chart_name == "Welcome":
         #PAGE_TITLE = "\U0001F3C6 FFL History \U0001F3C8"
-        st.title ('\U0001F3C6 History and Statistics of the Decades-Running \U0001F3C8')
+        st.title ('\U0001F3C6 History and Statistics of the Decades-Running FFL \U0001F3C8')
         st.write(
             """Welcome to the extended statistics site of the FFL!"""
             """\n\n<---- Choose a page in the left sidebar."""
