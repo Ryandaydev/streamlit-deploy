@@ -97,7 +97,7 @@ class WinsRace():
             width=chart_width,
             height=chart_height,
             #paper_bgcolor="lightgray",
-            paper_bgcolor="white",
+            paper_bgcolor="black",
             margin_t=25 #top margin of chart -         #https://plotly.com/python/reference/#layout-margin
             )
             st.plotly_chart(fig, use_container_width=True)
