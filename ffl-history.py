@@ -24,7 +24,7 @@ CHARTS = {
     #     "args": [],
     #     "kwargs": {},
     # },  
-    "Regular Season Scoring Chart": {
+    "Regular Season Points Scoring Chart": {
         "class": ScoringBoxPlots,
         "args": [],
         "kwargs": {},
