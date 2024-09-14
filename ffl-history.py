@@ -50,7 +50,7 @@ def run():
         #PAGE_TITLE = "\U0001F3C6 FFL History \U0001F3C8"
         st.title ('\U0001F3C6 History and Statistics of the Illustrious FFL \U0001F3C8')
         st.write(
-            """Welcome to the extended statistics site of the FFL!"""
+            """Welcome to the amazing statistics site of the FFL!"""
             """\n\n<---- Choose a page in the left sidebar."""
             # """\n\nUse the ">" symbol in the upper left corner to expand the"""
             # """ sidebar if it is not visible."""
