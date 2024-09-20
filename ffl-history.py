@@ -19,12 +19,12 @@ CHARTS = {
         "kwargs": {},
     },
 
-    # "All Time Standings": {
+    # "All Time Standings FFL": {
     #     "class": AllTimeStandings,
     #     "args": [],
     #     "kwargs": {},
     # },  
-    "Regular Season Points Scoring Chart": {
+    "Regular Season FFL Points Scoring Chart": {
         "class": ScoringBoxPlots,
         "args": [],
         "kwargs": {},
