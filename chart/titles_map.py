@@ -10,7 +10,8 @@ class TitlesMap():
 
 
         st.title ('\U0001F3C6 FFL Trophy Map \U0001f5fa')
-        st.write('Where do the FFL titles reside? The heatmap below shows which states have the most (darker is better). The table below the map shows the individual titles. The state drop-down on the left allows you to filter by specific states.')
+        st.header('See the states with most FFL trophies in residence')
+        #st.write('Where do the FFL titles reside? The heatmap below shows which states have the most (darker is better). The table below the map shows the individual titles. The state drop-down on the left allows you to filter by specific states.')
         #st.subheader('Plotly chart')
 
 
